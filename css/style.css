@@ -5,7 +5,7 @@
 
 body {
     font-family: "Spicy Rice", system-ui;/*fonte da letra*/
-    color: #131314;/*cor da letra*/
+    color: #d6d6e8;/*cor da letra*/
     background: rgb(177, 177, 235);/*fundo */
 }
 
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6{
 .nav-menu a:focus i {
     font-size: 24px;
     padding-right: 8px;
-    color: #131314;
+    color: #e8e8f7;
 }
 
 .nav-menu a:hover,
@@ -199,4 +199,48 @@ h1, h2, h3, h4, h5, h6{
     height: 100vh;
     background: url(../img/hero-bg.jpg) top center;
     background-size: cover ;
+}
+
+#hero::before {
+    content: "";
+    background: #0d0202c0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+}
+
+#hero h1 { 
+    margin: 00 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #d6d6e8;
+   /* text-shadow: ;*/
+    /*background: #020f14c2;*/
+    padding: 10px;
+    font-family: "Open sans";
+}
+
+#hero p {
+    color: #d6d6e8;
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-family: "poppins", sans-serif;
+    /*background: rgba(0, 0, 0, 0.587);*/
+}
+
+#hero p span {
+    color: #d6d6e8;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #1da2d6;
 }
