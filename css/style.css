@@ -118,6 +118,7 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
+    
 }
 
 .nav-menu a i,
@@ -243,4 +244,9 @@ h1, h2, h3, h4, h5, h6{
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #1da2d6;
+}
+
+.col-lg-6 {
+    font-family: "Spice Rice";
+    font-size: 18px;
 }
