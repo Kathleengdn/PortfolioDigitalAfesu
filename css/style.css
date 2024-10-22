@@ -250,3 +250,84 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Spice Rice";
     font-size: 18px;
 }
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Seções gerais */
+
+section {
+    padding: 60px 0 ;
+    overflow: hidden;
+}
+
+.section-bg {
+    background: #d6d6e8;
+}
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 500 ;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #935e5e;
+  /*  font-family: ;*/
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #5a5aff;
+    bottom: 0;
+    left: 0;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px ;
+    font-family: "Open Sans";
+}
+
+/* # About*/
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #935e5e;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
