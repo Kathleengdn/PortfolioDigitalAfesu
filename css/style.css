@@ -331,3 +331,28 @@ section {
     display: flex;
     align-items: center;
 }
+
+.about .content ul strong {
+    margin-right: 10px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.about .content ul span {
+    color: #e8e8f7;
+    font-family: "Open Sans" , sans-serif;
+}
+
+.about .content p {
+    color:#e8e8f7;
+    font-family: "Poppins";
+    font-weight: 600;
+    /*font-size: ;*/
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #141212;
+    line-height: 0
+}
